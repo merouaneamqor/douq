@@ -1,0 +1,96 @@
+{
+  "contact": {
+    "title": "Contactez Douq"
+  },
+  "faq": {
+    "title": "Questions Fréquentes"
+  },
+  "index": {
+    "title": "Découvrez les Meilleurs Endroits avec Douq",
+    "search_placeholder": "Recherchez des cafés, plats, styles culinaires...",
+    "intro": "Votre guide ultime pour découvrir les espaces les plus agréables au Maroc.",
+    "call_to_action": {
+      "title": "Besoin d'aide?",
+      "subtitle": "Notre équipe est là pour vous.",
+      "description": "Nous nous efforçons de rendre votre expérience avec Douq la meilleure possible. Notre équipe est toujours prête à répondre à vos questions.",
+      "button_text": "Centre d'Assistance"
+    },
+    "features": {
+      "discover_more": "Optimisez Votre Visibilité",
+      "explore_now": "Embarquez vers le Futur",
+      "simplifying_search": "Révolutionnez Votre Présence Commerciale avec Douq",
+      "douq_description": "Avec Douq, non seulement vous atteignez les clients désirés, mais vous leur offrez aussi une expérience utilisateur inégalée, tout en bénéficiant d'outils de pointe pour booster votre entreprise.",
+      "features": {
+        "personalized_recommendations": {
+          "name": "Suggestions Sur-Mesure",
+          "description": "Attirez les bons clients avec des recommandations taillées pour votre entreprise."
+        },
+        "real_time_reviews": {
+          "name": "Témoignages Instantanés",
+          "description": "Comprenez vos clients grâce aux retours en temps réel et réagissez promptement."
+        },
+        "business_analytics": {
+          "name": "Analyse Commerciale",
+          "description": "Obtenez des informations précieuses sur la performance de votre entreprise et identifiez les domaines d'amélioration."
+        },
+        "digital_marketing_tools": {
+          "name": "Outils de Marketing Numérique",
+          "description": "Augmentez votre visibilité en ligne grâce à des outils marketing conçus pour mettre en valeur votre entreprise."
+        },
+        "reservation_system": {
+          "name": "Système de Réservation Intégré",
+          "description": "Optimisez votre gestion des réservations et assurez un service client sans faille."
+        },
+        "loyalty_program_integration": {
+          "name": "Intégration de Programme de Fidélité",
+          "description": "Fidélisez vos clients avec des offres exclusives et des récompenses attractives."
+        }
+      }
+    },    
+    "we_take_care_of_everything": {
+      "title": "Nous nous Occupons de Tout",
+      "description": "De l'exploration à la réservation, nous avons tout prévu.",
+      "content": "Avec Douq, tout ce que vous avez à faire est de profiter de votre sortie. Nous gérons le reste."
+    },
+    "services": {
+      "title": "Pourquoi choisir Douq",
+      "intro": "Des fonctionnalités pensées pour vous offrir une expérience inégalée."
+    }
+  },
+  "contactPage": {
+    "salesSupport": {
+      "title": "Assistance Clientèle",
+      "description": "Pour toutes vos questions sur nos services ou fonctionnalités.",
+      "phone": "+212 123 4567",
+      "hours": "Lun-Ven de 9h à 21h",
+      "email": "support@douq.com"
+    },
+    "technicalSupport": {
+      "title": "Support Technique",
+      "description": "Pour toutes questions ou problèmes techniques.",
+      "phone": "+212 123 4567",
+      "hours": "Lun-Ven de 9h à 21h",
+      "email": "tech@douq.com"
+    },
+    "form": {
+      "title": "Nous Contacter",
+      "description": "Nous sommes toujours ravis d'entendre parler de vous.",
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "company": "Société",
+      "email": "Email",
+      "phoneNumber": "Numéro de Téléphone",
+      "phoneNumberPlaceholder": "+2126 987-6543",
+      "message": "Message",
+      "agreeToPolicies": "Accepter les Conditions",
+      "agreeToPoliciesMessage": "En soumettant ce formulaire, vous acceptez notre Politique de Confidentialité.",
+      "submitButton": "Envoyer",
+      "country": "Pays",
+      "countryOptions": {
+        "ma": "Maroc",
+        "dz": "Algérie",
+        "tn": "Tunisie"
+      }
+    }
+  }
+}

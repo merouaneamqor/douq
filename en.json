@@ -1,0 +1,92 @@
+{
+  "contact": {
+    "title": "Contact Us"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions"
+  },
+  "index": {
+    "title": "Welcome to Rayzin",
+    "intro": "Everything you need to deploy your application",
+    "call_to_action": {
+      "title": "Award-Winning Support",
+      "subtitle": "We're here to help",
+      "description": "Your satisfaction is our priority, and we're available to assist you at every step of your journey. Our dedicated team is ready to answer all your questions and solve your problems. Don't let obstacles stop you; we're here to help you succeed.",
+      "button_text": "Visit the help center"
+    },
+    "features": [
+      {
+        "name": "Push to Deploy",
+        "description": "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi vitae lobortis."
+      },
+      {
+        "name": "SSL Certificates",
+        "description": "Qui aut temporibus nesciunt vitae dicta repellat sit dolores pariatur. Temporibus qui illum aut."
+      },
+      {
+        "name": "Simple Queues",
+        "description": "Rerum quas incidunt deleniti quaerat suscipit mollitia. Amet repellendus ut odit dolores qui."
+      },
+      {
+        "name": "Advanced Security",
+        "description": "Ullam laboriosam est voluptatem maxime ut mollitia commodi. Et dignissimos suscipit perspiciatis."
+      },
+      {
+        "name": "Powerful API",
+        "description": "Ab a facere voluptatem in quia corrupti veritatis aliquam. Veritatis labore quaerat ipsum quaerat id."
+      },
+      {
+        "name": "Database Backups",
+        "description": "Quia qui et est officia cupiditate qui consectetur. Ratione similique et impedit ea ipsum et."
+      }
+    ],
+    "we_take_care_of_everything": {
+      "title": "We Take Care of Everything",
+      "description": "Leave the Technical Worries to Us",
+      "content": "At Rayzin, we've got all your technical needs covered. Focus on what matters most while we handle the technical complexities. No matter the challenge, we're here to ensure everything runs smoothly, so you can thrive."
+    },
+    "services": {
+      "title": "Our Services",
+      "intro": "Discover what we offer to help you succeed."
+    }
+  },
+  "services": {
+    "title": "Our Services"
+  },
+  "contactPage": {
+    "salesSupport": {
+      "title": "Sales Support",
+      "description": "Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus arcu.",
+      "phone": "+1 (555) 123 4567",
+      "hours": "Mon-Fri 8am to 6pm PST",
+      "email": "support@example.com"
+    },
+    "technicalSupport": {
+      "title": "Technical Support",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, repellat error corporis doloribus similique, voluptatibus numquam quam, quae officiis facilis.",
+      "phone": "+1 (555) 123 4567",
+      "hours": "Mon-Fri 8am to 6pm PST",
+      "email": "support@example.com"
+    },
+    "form": {
+      "title": "Contact sales",
+      "description": "Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus arcu.",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "company": "Company",
+      "email": "Email",
+      "phoneNumber": "Phone Number",
+      "phoneNumberPlaceholder": "+1 (555) 987-6543",
+      "message": "Message",
+      "agreeToPolicies": "Agree to policies",
+      "agreeToPoliciesMessage": "By selecting this, you agree to the Privacy Policy and Cookie Policy.",
+      "submitButton": "Let's talk",
+      "country": "Country",
+      "countryOptions": {
+        "ma": "Morocco",
+        "dz": "Algeria",
+        "tn": "Tunisia"
+      }
+    }
+  }
+}
