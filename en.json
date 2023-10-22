@@ -1,86 +1,90 @@
 {
   "contact": {
-    "title": "Contact Us"
+    "title": "Contact Douq"
   },
   "faq": {
     "title": "Frequently Asked Questions"
   },
   "index": {
-    "title": "Welcome to Rayzin",
-    "intro": "Everything you need to deploy your application",
+    "title": "Discover the Best Places with Douq",
+    "search_placeholder": "Search for cafes, dishes, culinary styles...",
+    "intro": "Your ultimate guide to discovering the coziest spots in Morocco.",
     "call_to_action": {
-      "title": "Award-Winning Support",
-      "subtitle": "We're here to help",
-      "description": "Your satisfaction is our priority, and we're available to assist you at every step of your journey. Our dedicated team is ready to answer all your questions and solve your problems. Don't let obstacles stop you; we're here to help you succeed.",
-      "button_text": "Visit the help center"
+      "title": "Need help?",
+      "subtitle": "Our team is here for you.",
+      "description": "We strive to make your experience with Douq the best possible. Our team is always ready to answer your questions.",
+      "button_text": "Support Center"
     },
-    "features": [
-      {
-        "name": "Push to Deploy",
-        "description": "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi vitae lobortis."
-      },
-      {
-        "name": "SSL Certificates",
-        "description": "Qui aut temporibus nesciunt vitae dicta repellat sit dolores pariatur. Temporibus qui illum aut."
-      },
-      {
-        "name": "Simple Queues",
-        "description": "Rerum quas incidunt deleniti quaerat suscipit mollitia. Amet repellendus ut odit dolores qui."
-      },
-      {
-        "name": "Advanced Security",
-        "description": "Ullam laboriosam est voluptatem maxime ut mollitia commodi. Et dignissimos suscipit perspiciatis."
-      },
-      {
-        "name": "Powerful API",
-        "description": "Ab a facere voluptatem in quia corrupti veritatis aliquam. Veritatis labore quaerat ipsum quaerat id."
-      },
-      {
-        "name": "Database Backups",
-        "description": "Quia qui et est officia cupiditate qui consectetur. Ratione similique et impedit ea ipsum et."
+    "features": {
+      "discover_more": "Boost Your Visibility",
+      "explore_now": "Embark on the Future",
+      "simplifying_search": "Revolutionize Your Business Presence with Douq",
+      "douq_description": "With Douq, not only do you reach desired customers, but you also provide them with an unmatched user experience, while benefiting from cutting-edge tools to boost your business.",
+      "features": {
+        "personalized_recommendations": {
+          "name": "Tailored Recommendations",
+          "description": "Attract the right customers with recommendations custom-fit for your business."
+        },
+        "real_time_reviews": {
+          "name": "Instant Testimonials",
+          "description": "Understand your customers with real-time feedback and respond promptly."
+        },
+        "business_analytics": {
+          "name": "Business Analytics",
+          "description": "Gain valuable insights into your business performance and identify areas for improvement."
+        },
+        "digital_marketing_tools": {
+          "name": "Digital Marketing Tools",
+          "description": "Increase your online visibility with marketing tools designed to showcase your business."
+        },
+        "reservation_system": {
+          "name": "Integrated Reservation System",
+          "description": "Optimize your reservation management and ensure flawless customer service."
+        },
+        "loyalty_program_integration": {
+          "name": "Loyalty Program Integration",
+          "description": "Retain your customers with exclusive offers and attractive rewards."
+        }
       }
-    ],
+    },    
     "we_take_care_of_everything": {
       "title": "We Take Care of Everything",
-      "description": "Leave the Technical Worries to Us",
-      "content": "At Rayzin, we've got all your technical needs covered. Focus on what matters most while we handle the technical complexities. No matter the challenge, we're here to ensure everything runs smoothly, so you can thrive."
+      "description": "From exploration to booking, we've got it all covered.",
+      "content": "With Douq, all you need to do is enjoy your outing. We handle the rest."
     },
     "services": {
-      "title": "Our Services",
-      "intro": "Discover what we offer to help you succeed."
+      "title": "Why choose Douq",
+      "intro": "Features designed to provide you with an unparalleled experience."
     }
-  },
-  "services": {
-    "title": "Our Services"
   },
   "contactPage": {
     "salesSupport": {
-      "title": "Sales Support",
-      "description": "Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus arcu.",
-      "phone": "+1 (555) 123 4567",
-      "hours": "Mon-Fri 8am to 6pm PST",
-      "email": "support@example.com"
+      "title": "Customer Support",
+      "description": "For all questions about our services or features.",
+      "phone": "+212 123 4567",
+      "hours": "Mon-Fri from 9am to 9pm",
+      "email": "support@douq.com"
     },
     "technicalSupport": {
       "title": "Technical Support",
-      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, repellat error corporis doloribus similique, voluptatibus numquam quam, quae officiis facilis.",
-      "phone": "+1 (555) 123 4567",
-      "hours": "Mon-Fri 8am to 6pm PST",
-      "email": "support@example.com"
+      "description": "For any technical questions or issues.",
+      "phone": "+212 123 4567",
+      "hours": "Mon-Fri from 9am to 9pm",
+      "email": "tech@douq.com"
     },
     "form": {
-      "title": "Contact sales",
-      "description": "Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus arcu.",
-      "firstName": "First name",
-      "lastName": "Last name",
+      "title": "Contact Us",
+      "description": "We're always delighted to hear from you.",
+      "firstName": "First Name",
+      "lastName": "Last Name",
       "company": "Company",
       "email": "Email",
       "phoneNumber": "Phone Number",
-      "phoneNumberPlaceholder": "+1 (555) 987-6543",
+      "phoneNumberPlaceholder": "+2126 987-6543",
       "message": "Message",
-      "agreeToPolicies": "Agree to policies",
-      "agreeToPoliciesMessage": "By selecting this, you agree to the Privacy Policy and Cookie Policy.",
-      "submitButton": "Let's talk",
+      "agreeToPolicies": "Agree to Terms",
+      "agreeToPoliciesMessage": "By submitting this form, you agree to our Privacy Policy.",
+      "submitButton": "Submit",
       "country": "Country",
       "countryOptions": {
         "ma": "Morocco",
