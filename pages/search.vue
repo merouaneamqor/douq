@@ -1,6 +1,6 @@
 <template>
     <div class="bg-primary-800">
-      <SearchBar/>
+      <SearchBar @perform-search="fetchResults"/>
 
     </div>
 
@@ -15,7 +15,12 @@
 export default {
   data() {
     return {
-      results: [] // Search results
+      results: []
+    }
+  },
+  mounted() {
+    if (this.$route.query.query) {
+      this.fetchResults(this.$route.query.query);
     }
   },
   methods: {

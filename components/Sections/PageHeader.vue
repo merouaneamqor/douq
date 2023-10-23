@@ -9,7 +9,7 @@
           </span>
           {{ title.split(' ').slice(1).join(' ') }}
         </h1>
-        <SearchBar />
+        <SearchBar @perform-search="fetchResults"/>
         <p class="text-lg text-gray-100 text-center max-w-3xl mx-auto ">
           {{ intro }}
         </p>

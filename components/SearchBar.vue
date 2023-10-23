@@ -40,9 +40,9 @@
       },
       performSearch() {
         if (this.searchQuery) {
-          this.$emit('search', this.searchQuery);
+          this.$router.push({ name: 'search', query: { query: this.searchQuery } });
         }
-      },
+      }
     },
   };
   </script>
