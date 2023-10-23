@@ -22,12 +22,12 @@
     </div>
 
     <!-- Contact Form -->
-    <div class="bg-white py-24 lg:py-32">
-      <div class="max-w-xl mx-auto text-center">
+    <div class="bg-white py-16 px-4 sm:px-6 lg:px-8">
+      <div class="max-w-7xl mx-auto md:grid md:grid-cols-1 md:gap-4">
         <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">{{ $t('contactPage.form.title') }}</h2>
-        <p class="mt-4 text-lg leading-6 text-gray-500">{{ $t('contactPage.form.description') }}</p>
-      </div>
+        <p class="text-lg leading-6 text-gray-500">{{ $t('contactPage.form.description') }}</p>
       <SectionsContactForm />
+      </div>
     </div> 
   </div>
 </template>

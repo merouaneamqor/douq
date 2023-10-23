@@ -1,27 +1,34 @@
 <template>
-    <section class="py-1">
+    <section class="py-4">
       <div class="container mx-auto">
         <div class="w-full max-w-screen-md mx-auto p-4">
-          <div class="flex items-center bg-white border border-success-500 rounded-full p-2">
+          <div class="flex items-center bg-white border-2 border-success-500 rounded-full p-2 shadow-md hover:shadow-lg transition-shadow">
             <input
               type="text"
               v-model="searchQuery"
               @input="updateSearch"
               @keydown.enter="performSearch"
               :placeholder= "$t('index.search_placeholder')"
-              class="w-full pl-8 pr-4 py-2 bg-transparent outline-none"
+              class="w-full pl-8 pr-4 py-2 bg-transparent outline-none rounded-l-full"
             />
-            <button @click="performSearch" class="p-2">
-              <i class="fas fa-search text-gray-900"></i>
+            <button @click="performSearch" class="p-3 rounded-full bg-success-500 hover:bg-success-600 transition-colors">
+              <SearchIcon class="h-5 w-5 text-gray-900" />
             </button>
           </div>
         </div>
       </div>
     </section>
   </template>
+
+
   
   <script>
+  import { SearchIcon } from '@heroicons/vue/outline'
+
   export default {
+    components: {
+      SearchIcon
+    },
     data() {
       return {
         searchQuery: '',
@@ -33,7 +40,7 @@
       },
       performSearch() {
         if (this.searchQuery) {
-            console.log(this.searchQuery)
+          this.$emit('search', this.searchQuery);
         }
       },
     },
