@@ -54,9 +54,9 @@
             <p class="mt-4 text-base text-primary-300">The latest news, articles, and resources, sent to your inbox weekly.</p>
             <form class="mt-4 sm:flex sm:max-w-md">
               <label for="email-address" class="sr-only">Email address</label>
-              <input type="email" name="email-address" id="email-address" autocomplete="email" required="" class="appearance-none min-w-0 w-full bg-white border border-transparent rounded-md py-2 px-4 text-base text-primary-900 placeholder-primary-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-primary-800 focus:ring-white focus:border-white focus:placeholder-primary-400" placeholder="Enter your email" />
+              <input type="email" name="email-address" id="email-address" autocomplete="email" required="" class="appearance-none min-w-0 w-full bg-white border border-transparent rounded-md py-2 px-4 text-base focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-success-primary-800 focus:ring-white focus:border-white focus:placeholder-gray-400" placeholder="Enter your email" />
               <div class="mt-3 rounded-md sm:mt-0 sm:ml-3 sm:flex-shrink-0">
-                <button type="submit" class="w-full bg-indigo-500 border border-transparent rounded-md py-2 px-4 flex items-center justify-center text-base font-medium text-white hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-primary-800 focus:ring-indigo-500">Subscribe</button>
+                <button type="submit" class="w-full bg-success-500 border border-transparent rounded-md py-2 px-4 flex items-center justify-center text-base font-medium hover:bg-success-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-success-primary-800 focus:ring-success-500">Subscribe</button>
               </div>
             </form>
           </div>
