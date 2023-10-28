@@ -4,7 +4,7 @@
   </div>
 
   <section>
-    <div v-if="isLoading" class="loading-state">Loading...</div>
+    <LoadingSpinner :isLoading="isLoading" />
     <div v-if="results.length === 0 && !isLoading" class="no-results">No results found.</div>
     <PlacesPlaceCardGrid :places="results" v-if="results.length > 0"/>
   </section>
@@ -29,10 +29,10 @@ export default {
     fetchResults: debounce(async function(query) {
       try {
         this.isLoading = true;
-        const response = await fetch(`http://localhost:3000/api/places?query=${query}`);
+        const response = await fetch(`http://localhost/api/places?query=${query}`);
         if (response.status === 200) {
           const data = await response.json();
-          this.results = data;
+          this.results = data.data;
         } else {
           console.error('Error fetching data:', response.status);
         }

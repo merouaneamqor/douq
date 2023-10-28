@@ -18,7 +18,7 @@
   </div>
 </template>
 
-<style>
+<style scoped>
   .custom-underline {
     position: relative;
     display: inline-block;
