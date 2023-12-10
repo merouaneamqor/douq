@@ -15,15 +15,18 @@
               <SearchIcon class="h-5 w-5 text-gray-900" />
             </button>
           </div>
+          <div v-if="showEmptySearchMessage" class="text-yellow-300 text-center my-2">
+            {{$t('index.empty_search_not_allowed')}}
+          </div>
         </div>
       </div>
     </section>
   </template>
 
 
-  
   <script>
   import { SearchIcon } from '@heroicons/vue/outline'
+  import _ from 'lodash'; // Assuming lodash is installed for debouncing
 
   export default {
     components: {
@@ -32,18 +35,21 @@
     data() {
       return {
         searchQuery: '',
+        showEmptySearchMessage: false,
       };
     },
     methods: {
-      updateSearch() {
-        console.log(this.searchQuery)
-      },
+      updateSearch: _.debounce(function() {
+        this.showEmptySearchMessage = false;
+        // will implement elasticsearch later 
+      }, 300),
       performSearch() {
-        if (this.searchQuery) {
-          this.$router.push({ name: 'search', query: { query: this.searchQuery } });
+        if (!this.searchQuery) {
+          this.showEmptySearchMessage = true;
+          return;
         }
+        this.$router.push({ name: 'search', query: { query: this.searchQuery } });
       }
     },
   };
   </script>
-  

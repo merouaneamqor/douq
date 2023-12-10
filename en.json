@@ -8,6 +8,7 @@
   "index": {
     "title": "Discover the Best Places with Douq",
     "search_placeholder": "Search for cafes, dishes, culinary styles...",
+    "empty_search_not_allowed": "Please enter a search term to proceed.",
     "intro": "Your ultimate guide to discovering the coziest spots in Morocco.",
     "call_to_action": {
       "title": "Need help?",

@@ -8,6 +8,7 @@
   "index": {
     "title": "Découvrez les Meilleurs Endroits avec Douq",
     "search_placeholder": "Recherchez des cafés, plats, styles culinaires...",
+    "empty_search_not_allowed": "Veuillez saisir un terme de recherche pour continuer.",
     "intro": "Votre guide ultime pour découvrir les espaces les plus agréables au Maroc.",
     "call_to_action": {
       "title": "Besoin d'aide?",
