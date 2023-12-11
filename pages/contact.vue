@@ -4,20 +4,20 @@
     <div class="max-w-7xl mx-auto md:grid md:grid-cols-2 md:gap-8">
       <!-- Sales Support -->
       <SectionsContactSection 
-        :title="$t('contactPage.salesSupport.title')" 
-        :description="$t('contactPage.salesSupport.description')" 
-        :phone="$t('contactPage.salesSupport.phone')" 
-        :hours="$t('contactPage.salesSupport.hours')" 
-        :email="$t('contactPage.salesSupport.email')"
+        :title=salesSupport.title
+        :description=salesSupport.description
+        :phone=salesSupport.phone
+        :hours=salesSupport.hours
+        :email=salesSupport.email
       />
       
       <!-- Technical Support -->
       <SectionsContactSection 
-        :title="$t('contactPage.technicalSupport.title')" 
-        :description="$t('contactPage.technicalSupport.description')" 
-        :phone="$t('contactPage.technicalSupport.phone')" 
-        :hours="$t('contactPage.technicalSupport.hours')" 
-        :email="$t('contactPage.technicalSupport.email')"
+        :title=technicalSupport.title
+        :description=technicalSupport.description 
+        :phone=technicalSupport.phone
+        :hours=technicalSupport.hours
+        :email=technicalSupport.email
       /> 
     </div>
 
@@ -32,6 +32,42 @@
   </div>
 </template>
 
-<script scoped>
-
+<script >
+export default {
+  data() {
+    return {
+      // Define technicalSupport as a reactive data property
+      technicalSupport: {
+        title: '',
+        description: '',
+        phone: '',
+        hours: '',
+        email: '',
+      },
+      salesSupport: {
+        title: '',
+        description: '',
+        phone: '',
+        hours: '',
+        email: '',
+      }
+    };
+  },
+  mounted() {
+    this.technicalSupport = {
+      title: this.$t('contactPage.technicalSupport.title'),
+      description: this.$t('contactPage.technicalSupport.description'),
+      phone: this.$t('contactPage.technicalSupport.phone'),
+      hours: this.$t('contactPage.technicalSupport.hours'),
+      email: this.$t('contactPage.technicalSupport.email.user') + "@" + this.$t('contactPage.technicalSupport.email.domain'),
+    };
+    this.salesSupport = {
+      title: this.$t('contactPage.salesSupport.title'),
+      description: this.$t('contactPage.salesSupport.description'),
+      phone: this.$t('contactPage.salesSupport.phone'),
+      hours: this.$t('contactPage.salesSupport.hours'),
+      email: this.$t('contactPage.salesSupport.email.user') + "@" + this.$t('contactPage.salesSupport.email.domain'),
+    };
+  }
+};
 </script>

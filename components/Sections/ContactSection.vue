@@ -1,50 +1,27 @@
 <template>
   <div class="contact-section p-8 border rounded-md shadow-sm">
-    <h3 class="text-2xl font-bold">{{ title }}</h3>
-
-    <p class="text-gray-600 mt-2">{{ description }}</p>
-
-    <p class="text-gray-600 mt-2">
-      <strong>Phone:</strong> {{ phone }}
-    </p>
-
-    <p class="text-gray-600">
-      <strong>Hours:</strong> {{ hours }}
-    </p>
-
-    <p class="text-gray-600 mt-2">
-      <strong>Email:</strong> <a :href="emailHref" class="text-blue-500 hover:underline">{{ email }}</a>
-    </p>
+    <h3 class="text-2xl font-bold"><slot name="title">{{ title }}</slot></h3>
+    <p class="text-gray-600 mt-2"><slot name="description">{{ description }}</slot></p>
+    <p class="text-gray-600 mt-2"><strong>Phone:</strong> <slot name="phone">{{ phone }}</slot></p>
+    <p class="text-gray-600"><strong>Hours:</strong> <slot name="hours">{{ hours }}</slot></p>
+    <p class="text-gray-600 mt-2"><strong>Email:</strong> <a :href="emailHref" class="text-blue-500 hover:underline">{{ email }}</a></p>
   </div>
 </template>
 
 <script>
 export default {
   name: 'ContactSection',
-
   props: {
-    title: {
-      type: String,
-      required: true
-    },
-    description: {
-      type: String,
-      required: true
-    },
-    phone: {
-      type: String,
-      required: true
-    },
-    hours: {
-      type: String,
-      required: true
-    },
+    title: String,
+    description: String,
+    phone: String,
+    hours: String,
     email: {
       type: String,
-      required: true
+      required: true,
+      validator: (value) => /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g.test(value)
     }
   },
-
   computed: {
     emailHref() {
       return `mailto:${this.email}`;
@@ -54,4 +31,5 @@ export default {
 </script>
 
 <style scoped>
+/* Scoped styles (if needed) */
 </style>

@@ -64,14 +64,20 @@
       "description": "Pour toutes vos questions sur nos services ou fonctionnalités.",
       "phone": "+212 123 4567",
       "hours": "Lun-Ven de 9h à 21h",
-      "email": "support@douq.com"
+      "email": {
+        "user": "support",
+        "domain": "douq.com"
+      }
     },
     "technicalSupport": {
       "title": "Support Technique",
       "description": "Pour toutes questions ou problèmes techniques.",
       "phone": "+212 123 4567",
       "hours": "Lun-Ven de 9h à 21h",
-      "email": "tech@douq.com"
+      "email": {
+        "user": "support",
+        "domain": "douq.com"
+      }
     },
     "form": {
       "title": "Nous Contacter",

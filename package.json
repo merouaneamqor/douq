@@ -21,6 +21,8 @@
   },
   "dependencies": {
     "@headlessui/vue": "^1.7.16",
-    "@heroicons/vue": "^1.0.6"
+    "@heroicons/vue": "^1.0.6",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.7"
   }
 }
