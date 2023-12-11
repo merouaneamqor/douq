@@ -62,7 +62,7 @@
     "salesSupport": {
       "title": "Assistance Clientèle",
       "description": "Pour toutes vos questions sur nos services ou fonctionnalités.",
-      "phone": "+212 123 4567",
+      "phone": "+212 7 010 867 26",
       "hours": "Lun-Ven de 9h à 21h",
       "email": {
         "user": "support",
@@ -72,7 +72,7 @@
     "technicalSupport": {
       "title": "Support Technique",
       "description": "Pour toutes questions ou problèmes techniques.",
-      "phone": "+212 123 4567",
+      "phone": "+212 7 010 867 26",
       "hours": "Lun-Ven de 9h à 21h",
       "email": {
         "user": "support",

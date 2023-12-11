@@ -1,4 +1,7 @@
 <template>
+  <div v-if="isLoading" class="fixed w-full h-full bg-white">
+      <LoadingSpinner :isLoading="isLoading" class="fixed"/>
+  </div>
   <div class="bg-white py-16 px-4 sm:px-6 lg:px-8">
     <!-- Contact Sections -->
     <div class="max-w-7xl mx-auto md:grid md:grid-cols-2 md:gap-8">
@@ -36,6 +39,8 @@
 export default {
   data() {
     return {
+      isLoading: true,
+
       // Define technicalSupport as a reactive data property
       technicalSupport: {
         title: '',
@@ -54,20 +59,28 @@ export default {
     };
   },
   mounted() {
-    this.technicalSupport = {
-      title: this.$t('contactPage.technicalSupport.title'),
-      description: this.$t('contactPage.technicalSupport.description'),
-      phone: this.$t('contactPage.technicalSupport.phone'),
-      hours: this.$t('contactPage.technicalSupport.hours'),
-      email: this.$t('contactPage.technicalSupport.email.user') + "@" + this.$t('contactPage.technicalSupport.email.domain'),
-    };
-    this.salesSupport = {
-      title: this.$t('contactPage.salesSupport.title'),
-      description: this.$t('contactPage.salesSupport.description'),
-      phone: this.$t('contactPage.salesSupport.phone'),
-      hours: this.$t('contactPage.salesSupport.hours'),
-      email: this.$t('contactPage.salesSupport.email.user') + "@" + this.$t('contactPage.salesSupport.email.domain'),
-    };
+    this.fetchContactData();
+
+   
+  },
+  methods: {
+    fetchContactData() {
+      this.isLoading = false;
+      this.technicalSupport = {
+        title: this.$t('contactPage.technicalSupport.title'),
+        description: this.$t('contactPage.technicalSupport.description'),
+        phone: this.$t('contactPage.technicalSupport.phone'),
+        hours: this.$t('contactPage.technicalSupport.hours'),
+        email: this.$t('contactPage.technicalSupport.email.user') + "@" + this.$t('contactPage.technicalSupport.email.domain'),
+      };
+      this.salesSupport = {
+        title: this.$t('contactPage.salesSupport.title'),
+        description: this.$t('contactPage.salesSupport.description'),
+        phone: this.$t('contactPage.salesSupport.phone'),
+        hours: this.$t('contactPage.salesSupport.hours'),
+        email: this.$t('contactPage.salesSupport.email.user') + "@" + this.$t('contactPage.salesSupport.email.domain'),
+      };
+    }
   }
 };
 </script>

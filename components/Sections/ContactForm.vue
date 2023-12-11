@@ -31,13 +31,23 @@
       };
     },
     methods: {
-      handleSubmit() {
-        // Submit logic goes here. You can integrate with an API or other services.
-        console.log('Message sent:', {
-          name: this.name,
-          email: this.email,
-          message: this.message
-        });
+      async handleSubmit() {
+        try {
+          const response = await this.$axios.post('/api/send-email', {
+            name: this.name,
+            email: this.email,
+            message: this.message,
+          });
+
+          if (response.status === 200) {
+            console.log('Email sent successfully');
+          } else {
+            console.log('Failed to send email');
+          }
+        } catch (error) {
+          console.error('Error sending email:', error);
+        }
+
         this.name = '';
         this.email = '';
         this.message = '';
@@ -45,4 +55,3 @@
     }
   }
   </script>
-  
